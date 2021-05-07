@@ -1,0 +1,70 @@
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #4e4e4e;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  height: 70vh;
+  /* min-height: 70vh; */
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+.userName {
+  padding-right: 10px;
+}
+
+.messageItem {
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.chatRoom {
+  margin: auto;
+  width: 50vh;
+}
+
+.chatHead {
+  text-align: center;
+  color: rgb(221, 114, 216);
+  font-weight: 800;
+}
+
+.deleteName {
+  cursor: pointer;
+  position: relative;
+}
+
+.deleteName .tooltiptext {
+  visibility: hidden;
+  width: 40px;
+  background-color: rgb(68, 68, 68);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+  top: -2px;
+  left: 25px;
+}
+
+.deleteName:hover .tooltiptext {
+  transform: translateY(0);
+  transition: 0.5s;
+  visibility: visible;
+}
+
+.onlineUsers {
+  margin-left: 5px;
+}

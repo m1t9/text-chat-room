@@ -1,0 +1,12 @@
+.enterRoom {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+}
+
+.joinButton {
+  padding: 5px;
+  background-color: rgb(184, 184, 184);
+}

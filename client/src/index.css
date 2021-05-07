@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+html {
+	height: 100%;
+	min-width: 320px;
+	overflow-y: auto;
+}
+
+body {
+  height: 100%;
+  font-family: 'Source Code Pro', monospace;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+};
